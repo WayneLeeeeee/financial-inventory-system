@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>登入</title>
+    <link rel="stylesheet" href="/CSS/login.css">
+  </head>
+  <body>
+    <div class="login-container">
+      <h1 class="h1">登入</h1>
+      <form action="submit_login" method="POST" class="form">
+          <label for="email">電子信箱</label>
+          <input type="email" name="email" placeholder="Email" required>
+          <label for="passsword">密碼</label>
+          <input type="password" name="password" placeholder="Password" class="password" required >
+         <a href="#" class="link text-align-right">忘記密碼</a>
+          <button type="submit" class="btn--form">送出</button>
+          <p class="transfer-signUp">還沒有帳號? <a href="./signUp.html" class="link">註冊一個</a></p>
+      </form>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/signUp.css" />
+  </head>
+  <body>
+    <div class="sign-up-container">
+      <h1 class="h1">註冊</h1>
+      <form action="submit_login" method="POST" class="form">
+        <label for="name">用戶名稱</label>
+        <input type="text" name="username" placeholder="名字" required />
+
+        <label for="email">電子信箱</label>
+        <input type="email" name="email" placeholder="Email" required />
+
+        <label for="passsword">密碼</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="密碼"
+          class="password"
+          required
+        />
+        <label for="passsword">確認密碼</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="確認密碼"
+          class="password"
+          required
+        />
+
+        <button type="submit" class="btn--form">送出</button>
+
+        <p class="transfer-login">
+          已經有帳號? <a href="./signUp.html" class="link">登入</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
