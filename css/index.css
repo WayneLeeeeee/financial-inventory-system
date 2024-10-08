@@ -1,0 +1,81 @@
+/* SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /* font size 10px */
+  /* 1rem usually equal=16px */
+  /* 10px/16px=0.625=62.5% */
+
+  font-size: 62.5%;
+  /* 
+  Does not work on Safari
+  scroll-behavior: smooth; */
+}
+body {
+  height: 100vh;
+  background-color: #f3f3f3;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  padding: 1.6rem 2.4rem;
+  margin-bottom: 12rem;
+}
+.title-user {
+  font-size: 3rem;
+}
+
+.index-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  max-width: 130rem;
+}
+
+.img {
+  width: 100%;
+}
+
+.choice-stystem {
+  background-color: #ffffff;
+  width: 60rem;
+  border-radius: 9px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  overflow: hidden;
+}
+
+.stystem-content {
+  padding: 3.2rem 1.6rem 3.2rem 1.6rem;
+}
+
+.title {
+  font-size: 2.4rem;
+}
+
+.btn-index {
+  margin-top: 1.6rem;
+  background-color: #0d6efd;
+  border: none;
+  padding: 1.2rem;
+  border-radius: 9px;
+  color: #fff;
+}
+
+.btn-index:hover {
+  background-color: #fff;
+  color: #555;
+  border: 1px solid #555;
+}
